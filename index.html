@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>To do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    
+    <header>
+        <h1>To do List</h1>
+        <p>DeveloperbyPedro</p>
+    </header>
+
+    <main>
+        <section class="sec-1">
+            <div class="div-1">
+                <form action="teste" id="form-1">
+                    <label for="add-tarefa">
+                        Adicione sua Tarefa:
+                    </label> <br>
+                    <input type="text" name="txt" id="txt" placeholder="Adicione sua tarefa">
+                    <input type="button" value="✓" class="btn">
+                </form>
+            </div>
+            <span>------------------------------------------------------------------------------------</span>
+
+            <div class="div-2">
+                <form action="teste">
+                    <label for="txt-sec2">Pesquisar:</label> <br> 
+                    <input type="text" name="txt" id="txt1" placeholder="Pesquise aqui suas atividades">
+                    <input type="button" value="⇦" class="btn">
+                </form>
+            </div>
+
+            <div class="div-3">
+                <label for="teste3">Selecione:</label>
+                <select name="ahhhhhhh" id="select-1">
+                    <option value="todos">TODOS</option>
+                    <option value="concluido">CONCLUIDOS</option>
+                    <option value="naofeito">NÃO CONCLUIDOS'</option>
+                    
+                </select>
+            </div>
+        </section>
+
+    </main>
 </body>
 </html>
