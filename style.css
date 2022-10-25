@@ -30,7 +30,6 @@ main .sec-1{
     border-radius: 90px;
 }
 main .sec-1 .div-1{ 
-    display: flex;
     flex-direction: row;
     color: rgb(0, 0, 8);
     justify-content: center;
@@ -69,7 +68,17 @@ main .sec-1 .div-2{
     font-size: 15pt;
 }
 .div-3 #select-1{ 
-    height: 24px;
+    height: 20px;
     width: 200px;
     text-align: center;
+}
+.div-4{ 
+    padding-top: 25px;
+    padding-left: 30px;
+}
+#todo-list{ 
+    background-color: blue;
+    height: 100px;
+    width: 550px;
+    border-radius: 30px;
 }
